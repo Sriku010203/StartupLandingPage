@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: yellow;
+            color:black;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+.navbar a {
+            color: black;;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+.intro {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 20px;
+        }
+.intro .content {
+            max-width: 50%;
+        }
+.intro img {
+            max-width: 45%;
+            height: auto;
+        }
+.intro button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+       
+        .contact {
+            padding: 50px 20px;
+            background-color: #f9f9f9;
+        }
+        .contact input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact input:focus {
+            outline: none;
+            border-color: #007BFF;
+        }
+        /* Table Section */
+        .table-section {
+            padding: 50px 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        tfoot {
+            background-color: #f1f1f1;
+            font-weight: bold;
+        }
+.button{
+	margin-left:250px;
+	background-color:yellow;
+	color:black;
+	border:1px solid black;
+}
+
+		
+	</style>
+</head>
+
+<body>
+	<div class="navbar">
+        <div class="logo">
+            <img src="https://images.app.goo.gl/ebe4V8CuMnV8mD5W7" alt="Startup">
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+    <div class="intro">
+        <div class="content">
+            <h1>Startup Landing Page</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus.
+.</p>
+            <button>Login</button>
+        </div>
+        <img src="jeff-bezos.jpg" alt="Jeff Bezos">
+    </div>
+    
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Message">
+            <button class="button" type="submit">Submit Form</button>
+        </form>
+    </div>
+    
+    <!-- Table Section -->
+    <div class="table-section">
+        <h2>Our Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Startup Name</th>
+                    <th>Startup Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>QW</td>
+                    <td>GHIERTYUIOP</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>ASS</td>
+                    <td>ZXCVBNMDFGHJKL</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Footer</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
